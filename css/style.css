@@ -50,13 +50,13 @@ nav a:hover {
     color: #070707;
 }
 
-#center_menu {
+.center_menu {
     font-size: 18px;
     line-height: 22px;
     color: #070707;
 }
 
-#vert {
+.vert {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-size: 16px;
@@ -66,15 +66,15 @@ nav a:hover {
     cursor: pointer;
 }
 
-#vert span {
+.vert span {
     transition: .3s linear;
 }
 
-#vert span:nth-child(2):hover {
+.vert span:nth-child(2):hover {
     color: #000;
 }
 
-#vert span:nth-child(1):hover {
+.vert span:nth-child(1):hover {
     color: #000;
 }
 
@@ -143,7 +143,7 @@ header img {
     padding: 0 5px;
 }
 
-#st {
+.star .st {
     padding-top: 21px;
 }
 
@@ -201,7 +201,7 @@ footer p {
     border: 0;
     cursor: pointer;
     background-color: #070707;
-    color: white;
+    color: #fff;
     font-weight: 700;
     text-decoration: none;
     margin-bottom: 85px;
