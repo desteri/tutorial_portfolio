@@ -194,7 +194,7 @@ footer p {
     padding-bottom: 35px;
 }
 
-#link {
+.link {
     display: inline-block;
     padding: 12px 30px;
     border-radius: 50px;
@@ -208,7 +208,7 @@ footer p {
     transition: .3s linear;
 }
 
-#link:hover {
+.link:hover {
     background-color: #828282;
 }
 
@@ -230,7 +230,7 @@ footer ul li {
     list-style: none;
 }
 
-#pr {
+.pr {
     font-size: 14px;
     color: #828282;
 }
