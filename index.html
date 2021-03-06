@@ -2,123 +2,131 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>ДЗ № 12</title>
+        <title>Portfolio</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="container">
-                <nav>
+                <nav class="nav">
                     <a href="#">Home</a>
                     <a href="#">About me</a>
                     <a href="#">Skills</a>
                     <a href="#">Portfolio</a>
                     <a href="#">Contacts</a>
                 </nav>
-                <div class="brd"></div>
-                <div class="title">
-                    <h1>Denis <br>Novik</h1>
-                    <p class="center_menu">UX | UI designer <br>24 years old, Minsk</p>
-                    <p class="vert"><span>RU</span> | <span>ENG</span></p>
+
+                <div class="header__title title">
+                    <h1 class="title__name">Denis Novik</h1>
+                    <div class="title__info">
+                        <p>UX | UI designer</p>
+                        <p>24 years old, Minsk</p>
+                    </div>
+                    <p class="title__lang_switcher"><span>RU</span> | <span>ENG</span></p>
                 </div>
+
                 <img src="img/Image-1.png" alt="image">
             </div>
         </header>
+
         <section class="about">
-            <div class="container">
-                <div class="about_text">
-                    <h2>About me</h2>
-                    <p>Hi, I'm Denis - UX/UI designer from Minsk. <br>I'm interested in design and everything connected with it.</p>
-                    <p>I'm studying at courses "Web and mobile design <br>interfaces" in IT-Academy.</p>
-                    <p>Ready to implement excellent projects <br>with wonderful people.</p>
+            <div class="about__info info">
+                <h2 class="info__title">About me</h2>
+
+                <div class="info__description">
+                    <p>Hi, I'm Denis - UX/UI designer from Minsk.</p>
+                    <p>I'm interested in design and everything connected with it.</p>
+                    <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                    <p>Ready to implement excellent projects with wonderful people.</p>
                 </div>
             </div>
         </section>
+
         <section class="skill">
             <div class="container">
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <p>I work in such programs as</p>
-                    <ul class="logos">
-                        <li>
-                            <img src="img/Logo-1.png" alt="AdobePhotoshopLogo">
-                            <p>Adobe <br>Photoshop</p>
-                            <div class="star">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star-1.png" alt="UnmarkedStar">
-                            </div>
-                        </li>
-                        <li>
-                            <img src="img/Logo-2.png" alt="AdobePhotoshopLogo">
-                            <p>Adobe <br>Illustrator</p>
-                            <div class="star">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">                                 
-                                <img src="img/Star.png" alt="MarkedStar">                                 
-                                <img src="img/Star-1.png" alt="UnmarkedStar">
-                                <img src="img/Star-1.png" alt="UnmarkedStar">
-                            </div>
-                        </li>
-                        <li>
-                            <img src="img/Logo-3.png" alt="AdobePhotoshopLogo">
-                            <p>Adobe <br>After Effects</p>
-                            <div class="star">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star-1.png" alt="UnmarkedStar">
-                            </div>
-                        </li>
-                        <li>
-                            <img src="img/Logo-4.png" alt="AdobePhotoshopLogo">
-                            <p>Figma</p>
-                            <div class="star st">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star.png" alt="MarkedStar">
-                                <img src="img/Star-1.png" alt="UnmarkedStar">
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio">
-            <div class="container">
-                <h2>Portfolio</h2>
-                <div class="job">
-                    <a href="#"><img src="img/Image-2.png" alt="OnlineFashionStore"></a>
-                    <p><a href="#">Online fashion store - Homepage</a></p>
-                </div>
-                <div class="job">
-                    <a href=""><img src="img/Image-3.png" alt="ReebokStore"></a>
-                    <p><a href="#">Reebok Store - Concept</a></p>
-                </div>
-                <div class="job">
-                    <a href=""><img src="img/Image-4.png" alt="BraunLandingPage"></a>
-                    <p><a href="#">Braun Landing Page - Concept</a></p>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <h2>Contacts</h2>
-                <p>Want to know more or just chat? <br>You are welcome!</p>
-                <a class="link" href="#">Send message</a>
-                <ul class="icon">
-                    <li><img src="img/Vector-1.png" alt=""></li>
-                    <li><img src="img/Vector-2.png" alt=""></li>
-                    <li><img src="img/Vector-3.png" alt=""></li>
-                    <li><img src="img/Vector-4.png" alt=""></li>
+                <h2 class="skill__title">Skills</h2>
+                <p class="skill__description">I work in such programs as</p>
+
+                <ul class="skill__logos logos">
+                    <li>
+                        <img src="img/Logo-1.png" alt="AdobePhotoshopLogo">
+                        <p>Adobe Photoshop</p>
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star-1.png" alt="UnmarkedStar">
+                    </li>
+                    <li>
+                        <img src="img/Logo-2.png" alt="AdobePhotoshopLogo">
+                        <p>Adobe Illustrator</p>
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star-1.png" alt="UnmarkedStar">
+                        <img src="img/Star-1.png" alt="UnmarkedStar">
+                    </li>
+                    <li>
+                        <img src="img/Logo-3.png" alt="AdobePhotoshopLogo">
+                        <p><span>Adobe</span> <span>After Effects</span></p>
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star.png" alt="MarkedStar">
+                        <img src="img/Star-1.png" alt="UnmarkedStar">
+                    </li>
+                    <li>
+                        <img src="img/Logo-4.png" alt="AdobePhotoshopLogo">
+                        <p>Figma</p>
+                        <img class="logos_star" src="img/Star.png" alt="MarkedStar">
+                        <img class="logos_star" src="img/Star.png" alt="MarkedStar">
+                        <img class="logos_star" src="img/Star.png" alt="MarkedStar">
+                        <img class="logos_star" src="img/Star.png" alt="MarkedStar">
+                        <img class="logos_star" src="img/Star-1.png" alt="UnmarkedStar">
+                    </li>
                 </ul>
-                <p class="pr">Like me on <br><a href="#">LinkedIn</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Dribble</a></p>
             </div>
+        </section>
+
+        <section class="portfolio">
+            <h2 class="portfolio__title">Portfolio</h2>
+
+            <div class="portfolio__job">
+                <a href="#">
+                    <img src="img/Image-2.png" alt="OnlineFashionStore">
+                </a>
+                <a href="#">Online fashion store - Homepage</a>
+            </div>
+
+            <div class="portfolio__job">
+                <a href="#">
+                    <img src="img/Image-3.png" alt="ReebokStore">
+                </a>
+                <a class="portfolio__job-link" href="#">Reebok Store - Concept</a>
+            </div>
+
+            <div class="portfolio__job">
+                <a href="#">
+                    <img src="img/Image-4.png" alt="BraunLandingPage">
+                </a>
+                <a class="portfolio__job-link" href="#">Braun Landing Page - Concept</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h2 class="footer__title">Contacts</h2>
+            <p class="footer__description">Want to know more or just chat? <span>You are welcome!</span></p>
+            <a class="footer__btn" href="#">Send message</a>
+
+            <ul class="footer__icon">
+                <li><img src="img/Vector-1.png" alt=""></li>
+                <li><img src="img/Vector-2.png" alt=""></li>
+                <li><img src="img/Vector-3.png" alt=""></li>
+                <li><img src="img/Vector-4.png" alt=""></li>
+            </ul>
+            
+            <p class="footer__social-links">Like me on <span><a href="#">LinkedIn</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Dribble</a></span></p>
         </footer>
     </body>
 </html>
